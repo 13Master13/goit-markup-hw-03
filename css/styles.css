@@ -126,7 +126,7 @@ a {
   color: #2e2f42;
 }
 
-.ways-item-period {
+.ways-item-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -146,7 +146,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.team-list-title {
+.team-item-title {
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -156,7 +156,7 @@ a {
   background-color: #ffffff;
 }
 
-.team-list-period {
+.team-item-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -179,7 +179,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.portfolio-item-period {
+.portfolio-item-text {
   letter-spacing: 0.02em;
 }
 
@@ -200,7 +200,7 @@ a {
   color: #f4f4fd;
 }
 
-.footer-period {
+.footer-text {
   color: #f4f4fd;
   background-color: #2e2f42;
   line-height: 1.5;
