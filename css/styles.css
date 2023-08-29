@@ -7,9 +7,6 @@
   --c-pressed-state: #404bbf;
 }
 
-/* font-family: 'Raleway', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
-
 /* Body */
 
 body {
@@ -23,14 +20,19 @@ body {
   background-color: var(--c-background-white);
 }
 
-h2 {
+h1 {
+  font-size: 56px;
   font-weight: 700;
+}
+
+h2 {
   font-size: 36px;
+  font-weight: 700;
 }
 
 h3 {
-  font-weight: 500;
   font-size: 20px;
+  font-weight: 500;
 }
 
 ul,
@@ -63,10 +65,7 @@ a {
   color: var(--c-dark);
 }
 
-.header-item-link:hover {
-  color: var(--c-pressed-state);
-}
-
+.header-item-link:hover,
 .header-item-link:focus {
   color: var(--c-pressed-state);
 }
@@ -81,10 +80,7 @@ a {
   color: var(--c-text);
 }
 
-.address-item-box:hover {
-  color: var(--c-pressed-state);
-}
-
+.address-item-box:hover,
 .address-item-box:focus {
   color: var(--c-pressed-state);
 }
@@ -96,8 +92,6 @@ a {
 }
 
 .section-main-title {
-  font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   color: var(--c-background-white);
 }
@@ -111,10 +105,7 @@ a {
   background-color: var(--c-primery-brand);
 }
 
-.button:hover {
-  background-color: var(--c-pressed-state);
-}
-
+.button:hover,
 .button:focus {
   background-color: var(--c-pressed-state);
 }
@@ -122,8 +113,6 @@ a {
 /* Секція Ways */
 
 .ways-item-title {
-  font-weight: 500;
-  font-size: 20px;
   line-height: 1.2;
   color: var(--c-dark);
 }
@@ -135,16 +124,12 @@ a {
 }
 
 .team-title {
-  font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--c-dark);
 }
 
 .team-item-title {
-  font-size: 20px;
-  font-weight: 500;
   line-height: 1.2;
   color: var(--c-dark);
 }
@@ -152,15 +137,11 @@ a {
 /* Секція Portfolio */
 
 .portfolio-title {
-  font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
 }
 
 .portfolio-item-title {
-  font-size: 20px;
-  font-weight: 500;
   line-height: 1.2;
   color: var(--c-dark);
 }
@@ -181,10 +162,7 @@ a {
   color: var(--c-primery-brand);
 }
 
-.footer-span-logo {
-  color: var(--c-background-light);
-}
-
+.footer-span-logo,
 .footer-text {
   color: var(--c-background-light);
 }
