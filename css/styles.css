@@ -1,3 +1,15 @@
+:root {
+  --c-text: #434455;
+  --c-dark: #2e2f42;
+  --c-background-white: #fff;
+  --c-background-light: #f4f4fd;
+  --c-primery-brand: #4d5ae5;
+  --c-pressed-state: #404bbf;
+}
+
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
 /* Body */
 
 body {
@@ -6,13 +18,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  color: #434455;
-  background-color: #ffffff;
-}
-
-h1 {
-  font-weight: 700;
-  line-height: 3.75;
+  letter-spacing: 0.02em;
+  color: var(--c-text);
+  background-color: var(--c-background-white);
 }
 
 h2 {
@@ -43,26 +51,24 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--c-primery-brand);
 }
 
 .header-span-logo {
-  color: #2e2f42;
+  color: var(--c-dark);
 }
 
 .header-list {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--c-dark);
 }
 
 .header-item-link:hover {
-  color: #404bbf;
+  color: var(--c-pressed-state);
 }
 
 .header-item-link:focus {
-  color: #404bbf;
+  color: var(--c-pressed-state);
 }
 
 /* Контакти */
@@ -72,137 +78,113 @@ a {
 }
 
 .address-item-box {
-  color: #434455;
+  color: var(--c-text);
 }
 
 .address-item-box:hover {
-  color: #404bbf;
+  color: var(--c-pressed-state);
 }
 
 .address-item-box:focus {
-  color: #404bbf;
+  color: var(--c-pressed-state);
 }
 
-.address-item {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+/* Секція Main */
 
-/* Секція 1 */
+.section-ways {
+  background-color: var(--c-dark);
+}
 
 .section-main-title {
-  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02em;
-  background-color: #2e2f42;
+  color: var(--c-background-white);
 }
 
 .button {
-  background-color: #4d5ae5;
-  color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  color: var(--c-background-white);
+  background-color: var(--c-primery-brand);
 }
 
 .button:hover {
-  background-color: #404bbf;
+  background-color: var(--c-pressed-state);
 }
 
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--c-pressed-state);
 }
 
-/* Секція 2 */
+/* Секція Ways */
 
 .ways-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--c-dark);
 }
 
-.ways-item-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+/* Секція Team */
 
-/* Секція 3 */
+.section-team {
+  background-color: var(--c-background-light);
+}
 
 .team-title {
-  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
-  background-color: #f4f4fd;
-}
-
-.team-list {
-  line-height: 1.5;
-  background-color: #f4f4fd;
+  color: var(--c-dark);
 }
 
 .team-item-title {
-  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  color: var(--c-dark);
 }
 
-.team-item {
-  background-color: #ffffff;
-}
-
-.team-item-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* Секція 4 */
+/* Секція Portfolio */
 
 .portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-.portfolio-list {
-  line-height: 1.5;
-}
-
 .portfolio-item-title {
-  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-item-text {
-  letter-spacing: 0.02em;
+  color: var(--c-dark);
 }
 
 /* Футер */
 
+.footer {
+  background-color: var(--c-dark);
+}
+
 .footer-logo {
-  background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--c-primery-brand);
 }
 
 .footer-span-logo {
-  color: #f4f4fd;
+  color: var(--c-background-light);
 }
 
 .footer-text {
-  color: #f4f4fd;
-  background-color: #2e2f42;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: var(--c-background-light);
 }
