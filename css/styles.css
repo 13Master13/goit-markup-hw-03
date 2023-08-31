@@ -7,7 +7,7 @@
   --c-pressed-state: #404bbf;
 }
 
-/* Body */
+/* Глобальні налаштування */
 
 body {
   color: var(--c-text);
@@ -21,21 +21,26 @@ body {
 h1 {
   font-size: 56px;
   font-weight: 700;
+  margin: 0;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
+  margin: 0;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
+  margin: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
@@ -44,6 +49,22 @@ a {
 
 button {
   font-family: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+image {
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 /* Хедер */
