@@ -22,12 +22,14 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   margin: 0;
+  text-align: center;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   margin: 0;
+  text-align: center;
 }
 
 h3 {
@@ -55,19 +57,32 @@ p {
   margin: 0;
 }
 
-image {
+img {
   display: block;
+  padding-bottom: 32px;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   padding-left: 0;
   padding-right: 0;
   margin-left: 156px;
   margin-right: 156px;
 }
 
+.section-main,
+.section-ways,
+.section-team,
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Хедер */
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-logo {
   color: var(--c-primery-brand);
@@ -98,7 +113,7 @@ image {
 /* Контакти */
 
 .address {
-  font-style: normal;
+  font-style: inherit;
 }
 
 .address-item-box {
@@ -112,13 +127,16 @@ image {
 
 /* Секція Main */
 
-.section-ways {
+.section-main {
   background-color: var(--c-dark);
+  height: 600px;
 }
 
 .section-main-title {
   color: var(--c-background-white);
   line-height: 1.07;
+  width: 496px;
+  margin: 0 auto;
 }
 
 .button {
@@ -128,6 +146,9 @@ image {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
@@ -150,10 +171,16 @@ image {
   overflow: hidden;
 }
 
+.ways-list {
+  display: flex;
+  justify-content: center;
+}
+
 .ways-item-title {
   color: var(--c-dark);
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .ways-item-text {
@@ -165,6 +192,7 @@ image {
 
 .section-team {
   background-color: var(--c-background-light);
+  height: 732px;
 }
 
 .team-title {
@@ -172,6 +200,12 @@ image {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team-list {
+  background-color: var(--c-background-white);
+  display: flex;
+  justify-content: center;
 }
 
 .team-item-title {
@@ -188,6 +222,20 @@ image {
   text-transform: capitalize;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* !!!??? */
+
+.portfolio-item {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-item-title {
   color: var(--c-dark);
   line-height: 1.2;
@@ -198,6 +246,7 @@ image {
 
 .footer {
   background-color: var(--c-dark);
+  height: 312px;
 }
 
 .footer-logo {
@@ -217,4 +266,5 @@ image {
   color: var(--c-background-light);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
