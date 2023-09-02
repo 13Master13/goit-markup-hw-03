@@ -303,11 +303,7 @@ address {
 
 .footer {
   background-color: var(--c-dark);
-  height: 312px;
-}
-
-.footer .container {
-  padding-top: 102px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -318,6 +314,8 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-span-logo {
@@ -328,6 +326,5 @@ address {
   color: var(--c-background-light);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  padding-top: 17px;
+  max-width: 264px;
 }
