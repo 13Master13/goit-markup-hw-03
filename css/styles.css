@@ -67,11 +67,9 @@ img {
 }
 
 .container {
-  max-width: 1128px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 156px;
-  margin-right: 156px;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section-main,
@@ -95,7 +93,7 @@ header .container {
   justify-content: space-between;
 }
 
-nav {
+.navigation {
   display: flex;
 }
 
@@ -108,7 +106,7 @@ nav {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 26px;
+  margin-right: 76px;
 }
 
 .header-span-logo {
@@ -120,6 +118,10 @@ nav {
   margin-top: 24px;
   gap: 40px;
   margin-left: 76px;
+}
+
+.header-item {
+  padding: 24px 0;
 }
 
 .header-item-link {
