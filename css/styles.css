@@ -95,6 +95,7 @@ header .container {
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -115,13 +116,7 @@ header .container {
 
 .header-list {
   display: flex;
-  margin-top: 24px;
   gap: 40px;
-  margin-left: 76px;
-}
-
-.header-item {
-  padding: 24px 0;
 }
 
 .header-item-link {
@@ -130,6 +125,7 @@ header .container {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-item-link:hover,
