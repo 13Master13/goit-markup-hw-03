@@ -14,8 +14,6 @@ body {
   background-color: var(--c-background-white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  /* font-style: normal; */
-  /* font-weight: 400; */
   width: 1440px;
 }
 
@@ -268,6 +266,7 @@ address {
 }
 
 .team-item-text {
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -305,6 +304,7 @@ address {
 }
 
 .portfolio-item-text {
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
