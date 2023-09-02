@@ -99,7 +99,6 @@ header .container {
 }
 
 .header-logo {
-  display: block;
   color: var(--c-primery-brand);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -107,6 +106,7 @@ header .container {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: block;
   margin-right: 76px;
 }
 
@@ -120,11 +120,11 @@ header .container {
 }
 
 .header-item-link {
-  display: block;
   color: var(--c-dark);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
   padding: 24px 0;
 }
 
@@ -148,8 +148,8 @@ address {
 }
 
 .address-item-box {
-  gap: 40px;
   color: var(--c-text);
+  gap: 40px;
 }
 
 .address-item-box:hover,
@@ -160,9 +160,9 @@ address {
 /* Секція Main */
 
 .section-main {
+  background-color: var(--c-dark);
   text-align: center;
   padding: 188px 0;
-  background-color: var(--c-dark);
   height: 600px;
 }
 
