@@ -78,13 +78,13 @@ img {
 
 /* Хедер */
 
-header {
+.header {
   height: 72px;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
 }
 
-header .container {
+.header .container {
   display: flex;
   justify-content: space-between;
 }
@@ -175,9 +175,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-top: 48px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 48px auto 0;
   min-width: 169px;
   height: 56px;
   border: none;
